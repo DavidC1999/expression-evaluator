@@ -79,8 +79,8 @@ static uint32_t construct_number_token(Tokenizer* tokenizer, char* str, uint32_t
     }
 
     if (dot_amt > 1) {
-        char buffer[30];
-        snprintf(buffer, 30, "Unknown character for constructing number token: %c", str[index]);
+        char buffer[100];
+        snprintf(buffer, 100, "Unknown character for constructing number token: %c", str[index]);
         panic(tokenizer, buffer);
     }
 

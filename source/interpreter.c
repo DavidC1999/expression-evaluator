@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-
 #include "interpreter.h"
 #include "parser.h"
 
